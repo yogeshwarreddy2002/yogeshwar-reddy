@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("10000 coders")
+st.title("xyz company")
 st.header("Job Description for 10000 coder")
 st.write("A job description for a 10000 coder refers to a role for a software development trainee or junior developer who has completed a training program with the organization 10000 Coders. The job description involves writing, modifying, and testing code for web applications and other software, using skills gained from their immersive training in full-stack web development, problem-solving, and practical application building. Responsibilities include creating production-ready applications, working on real-world assignments, and potentially other tasks like working in teams or providing technical support.")
 st.subheader("skills requrede: ")
@@ -18,5 +18,6 @@ st.text_area("Why do you want to join 10000 coders?")
 st.write("By clicking submit, you agree to our terms and conditions.")
 st.markdown("[Read terms and conditions](https://www.10000coders.com/terms-and-conditions)")
 st.checkbox("I agree to the terms and conditions")
+
 
 st.button("Submit")
