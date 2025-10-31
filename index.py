@@ -14,10 +14,10 @@ COllgename=st.text_input("Enter your college name")
 st.radio("Enter your graduation year",[2023,2024,2025])
 st.radio("Select your Gender",["male","female","other"])
 st.file_uploader("Upload your resume")     
-st.text_area("Why do you want to join 10000 coders?")
+st.text_area("Why do you want to join xyz comapny")
 st.write("By clicking submit, you agree to our terms and conditions.")
-st.markdown("[Read terms and conditions](https://www.10000coders.com/terms-and-conditions)")
 st.checkbox("I agree to the terms and conditions")
 
 
 st.button("Submit")
+
